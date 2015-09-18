@@ -34,7 +34,10 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'get /search': 'SearchController.search',
+  'get /upload': 'FileController.upload'
 
   /***************************************************************************
   *                                                                          *
