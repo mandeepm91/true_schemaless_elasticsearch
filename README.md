@@ -10,11 +10,13 @@ Steps to follow:
 
 * git clone the project
 * navigate to the project directory
-* Run the following command:
+*  Run the following command
 
+```
     npm install
     sudo npm install sails -g
     sails lift
+```
 
 Server will start on port 1337 by default
 
