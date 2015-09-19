@@ -16,6 +16,7 @@ var _ = require("lodash");
 Promise.promisifyAll(fs);
 
 module.exports = {
+  removeAll: removeAll,
   transFormInputDoc: transFormInputDoc,
   search: search,
   count: count,
@@ -169,6 +170,23 @@ function indexDocument(content){
 }
 
 
+// just for development purpose
+// need to disable this in production
+function removeAll(){
+  return esClient.deleteByQuery({
+    "index": "my_index",
+    "type": "json_docs",
+    "body": {
+      "query": {
+        "match_all": {}
+      }
+    }
+  })
+}
+
+
+
+// some data for testing on console
 // var testObject1 = {
 //   "key1": 12213.12213,
 //   "key2": "gggs",

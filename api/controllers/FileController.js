@@ -15,7 +15,7 @@ module.exports = {
   upload: function (req, res){
     req.file('json').upload({
       // don't allow the total upload size to exceed ~10MB
-      maxBytes: 10000000
+      maxBytes: 100000000
     },function whenDone(err, uploadedFiles) {
       if (err) {
         return res.negotiate(err);
