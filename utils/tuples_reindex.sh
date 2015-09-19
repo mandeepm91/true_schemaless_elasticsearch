@@ -28,7 +28,6 @@ curl -XPUT http://f1f003f442dbb7d5873776c95ea47e71.ap-southeast-1.aws.found.io:9
   }
 }'
 
-
 curl -XPUT http://f1f003f442dbb7d5873776c95ea47e71.ap-southeast-1.aws.found.io:9200/my_index/_mapping/json_docs -d '
 {
   "_all" : {"type" : "string", "null_value" : "na", "index" : "analyzed", "index_analyzer" : "autocomplete",  "search_analyzer": "standard"},

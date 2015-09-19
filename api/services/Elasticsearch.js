@@ -169,37 +169,37 @@ function indexDocument(content){
 }
 
 
-var testObject1 = {
-  "key1": 12213.12213,
-  "key2": "gggs",
-  "key3": new Date(),
-  "key4": {
-    "subKey1": 4,
-    "subKey2": "some text"
-  } 
-}
+// var testObject1 = {
+//   "key1": 12213.12213,
+//   "key2": "gggs",
+//   "key3": new Date(),
+//   "key4": {
+//     "subKey1": 4,
+//     "subKey2": "some text"
+//   } 
+// }
 
-var input = {
-  "id" : 123,
-  "message" : "free ponies!",
-  "author" : {
-    "id" : "abc",
-    "name" : "benji",
-    "address": {
-      "line1": "B 1",
-      "city": "Delhi",
-      "postal_code": 110058
-    }
-  },
-  "numbers": [1,2,3,4,5],
-  "tags": ["hello", "hi"],
-  "dates": [new Date(0), new Date()],
-  "comments": ["hello", "blah blah", 45, 67, {"key": 1, "value": "more nesting"}]
-}
+// var input = {
+//   "id" : 123,
+//   "message" : "free ponies!",
+//   "author" : {
+//     "id" : "abc",
+//     "name" : "benji",
+//     "address": {
+//       "line1": "B 1",
+//       "city": "Delhi",
+//       "postal_code": 110058
+//     }
+//   },
+//   "numbers": [1,2,3,4,5],
+//   "tags": ["hello", "hi"],
+//   "dates": [new Date(0), new Date()],
+//   "comments": ["hello", "blah blah", 45, 67, {"key": 1, "value": "more nesting"}]
+// }
 
 
-var testObject2 = {
-  "key1": "12213",
-  "key2": "gggs",
-  "key3": new Date()
-}
+// var testObject2 = {
+//   "key1": "12213",
+//   "key2": "gggs",
+//   "key3": new Date()
+// }
