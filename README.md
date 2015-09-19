@@ -25,6 +25,7 @@ Files of interest:
     api/services/Elasticsearch.js
     api/controllers/FileController.js
     api/controllers/SearchController.js
+    utils/elasticsearch_scratchpad.sh
 
 ## Major areas of improvement:
     
