@@ -146,7 +146,7 @@
 
     var reqInProgress = false;
     document.addEventListener('scroll', function (event) {
-      if(document.body.scrollHeight <= (document.body.scrollTop || document.documentElement.scrollTop) + window.innerHeight + 100) {
+      if(document.body.scrollHeight <= (document.body.scrollTop || document.documentElement.scrollTop) + window.innerHeight + 150) {
         if(!reqInProgress) {
             page++;
             reqInProgress = true;
