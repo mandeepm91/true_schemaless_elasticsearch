@@ -37,7 +37,7 @@ module.exports.routes = {
   },
 
   'get /search': 'SearchController.search',
-  'get /upload': 'FileController.upload'
+  'post /upload': 'FileController.upload'
 
   /***************************************************************************
   *                                                                          *
